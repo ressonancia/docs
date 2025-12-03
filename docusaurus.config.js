@@ -13,7 +13,7 @@ const config = {
 
   url: 'https://ressonancia.github.io',
   // url: 'https://docs.ressonance.com',
-  baseUrl: '/docs',
+  baseUrl: '/',
   organizationName: 'ressonancia',
   projectName: 'docs',
   trailingSlash: false,
