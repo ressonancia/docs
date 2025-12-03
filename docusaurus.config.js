@@ -11,9 +11,9 @@ const config = {
     v4: true,
   },
 
-  url: 'https://ressonancia.github.io',
-  // url: 'https://docs.ressonance.com',
-  baseUrl: '/docs',
+  // url: 'https://ressonancia.github.io',
+  url: 'https://docs.ressonance.com',
+  baseUrl: '/',
   organizationName: 'ressonancia',
   projectName: 'docs',
   trailingSlash: false,
