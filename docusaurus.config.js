@@ -11,7 +11,6 @@ const config = {
     v4: true,
   },
 
-  // url: 'https://ressonancia.github.io',
   url: 'https://docs.ressonance.com',
   baseUrl: '/',
   organizationName: 'ressonancia',
@@ -33,7 +32,6 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: './sidebars.js',
-          // editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -82,6 +80,10 @@ const config = {
               {
                 label: 'X',
                 href: 'https://x.com/@RessonanceCom',
+              },
+              {
+                label: 'Blog',
+                href: 'https://blog.ressonance.com',
               },
             ],
           },
