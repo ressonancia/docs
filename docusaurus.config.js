@@ -17,6 +17,7 @@ const config = {
 
   organizationName: 'ressonance',
   projectName: 'ressonance-docs',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
 
