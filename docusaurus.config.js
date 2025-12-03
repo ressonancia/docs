@@ -54,6 +54,7 @@ const config = {
         logo: {
           alt: 'Ressonance Logo',
           src: 'img/logo.png',
+          href: '/',
         },
         items: [
           {
@@ -71,7 +72,7 @@ const config = {
             items: [
               {
                 label: 'Getting Started',
-                to: '/intro',
+                to: '/',
               },
             ],
           },

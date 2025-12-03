@@ -1,3 +1,9 @@
+---
+sidebar_position: 1
+slug: /
+title: Tutorial Intro
+---
+
 # Welcome to Ressonance
 
 Ressonance is an open-source WebSocket as a Service platform built specifically for Laravel developers. It was designed to make real-time communication simple, affordable, and developer-friendly — without the complexity or high costs of traditional services.
