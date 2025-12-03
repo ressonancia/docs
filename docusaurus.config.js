@@ -11,15 +11,13 @@ const config = {
     v4: true,
   },
 
-  url: 'https://docs.ressonance.com',
+  url: 'https://ressonancia.github.io',
+  // url: 'https://docs.ressonance.com',
   baseUrl: '/',
-
-
-  organizationName: 'ressonance',
-  projectName: 'ressonance-docs',
+  organizationName: 'ressonancia',
+  projectName: 'docs',
   trailingSlash: false,
   deploymentBranch: 'master',
-
   onBrokenLinks: 'throw',
 
   i18n: {
