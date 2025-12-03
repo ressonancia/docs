@@ -18,6 +18,7 @@ const config = {
   organizationName: 'ressonance',
   projectName: 'ressonance-docs',
   trailingSlash: false,
+  deploymentBranch: 'master',
 
   onBrokenLinks: 'throw',
 
