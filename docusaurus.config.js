@@ -12,7 +12,7 @@ const config = {
   },
 
   url: 'https://docs.ressonance.com',
-  baseUrl: '/',
+  baseUrl: '/docs',
 
 
   organizationName: 'ressonance',
