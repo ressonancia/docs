@@ -81,10 +81,6 @@ const config = {
                 label: 'X',
                 href: 'https://x.com/@RessonanceCom',
               },
-              {
-                label: 'Blog',
-                href: 'https://blog.ressonance.com',
-              },
             ],
           },
           {
@@ -93,6 +89,10 @@ const config = {
               {
                 label: 'GitHub',
                 href: 'https://github.com/ressonancia',
+              },
+              {
+                label: 'Blog',
+                href: 'https://blog.ressonance.com',
               },
             ],
           },
