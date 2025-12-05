@@ -33,6 +33,12 @@ const config = {
           routeBasePath: '/',
           sidebarPath: './sidebars.js',
         },
+
+        gtag: {
+          trackingID: 'G-YQ2T3YF2JV',
+          anonymizeIP: true,
+        },
+
         theme: {
           customCss: './src/css/custom.css',
         },
