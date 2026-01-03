@@ -1,11 +1,17 @@
 ---
 sidebar_position: 1
 slug: /
-title: Tutorial Intro
+title: Welcome to Ressonance
 ---
 
-# Welcome to Ressonance
+# Welcome to Ressonance Docs
 
+This is the documentation for Ressonance, Open-Source Websocket Service Platform compatible with pusher protocol.
+
+It covers everything you need to manage apps in Ressonance and integrate with your application.
+
+
+# What is ressonance?
 Ressonance is an open-source WebSocket as a Service platform built specifically for Laravel developers. It was designed to make real-time communication simple, affordable, and developer-friendly — without the complexity or high costs of traditional services.
 
 With Ressonance, you can integrate WebSockets into your Laravel applications using a clean, modern, and fully customizable workflow. Whether you're broadcasting events, syncing UI state, or powering live features at scale, Ressonance provides a fast and intuitive setup that fits naturally into the Laravel ecosystem.
