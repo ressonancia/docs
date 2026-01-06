@@ -6,7 +6,7 @@ title: Getting Started
 
 # Getting Started
 
-Ressonance can be run in two different ways, depending on how much control and operational responsibility you want. You can use the fully managed (cloud service)[https://www.ressonance.com/], where everything is handled for you, or you can self-host Ressonance on your own infrastructure using Docker. Both options provide the same real-time WebSocket capabilities — the difference is how and where the service runs.
+Ressonance can be run in two different ways, depending on how much control and operational responsibility you want. You can use the fully managed [cloud service](https://www.ressonance.com/), where everything is handled for you, or you can self-host Ressonance on your own infrastructure using Docker. Both options provide the same real-time WebSocket capabilities — the difference is how and where the service runs.
 
 
 # Cloud Option: Ressonance Managed WebSockets
@@ -23,7 +23,7 @@ What are the advantages:
 
 This option is ideal for teams who want to focus on product development rather than infrastructure and operations.
 
-Proceed to (Using Ressonance)[/using-ressonance] section to create a cloud account.
+Proceed to [Using Ressonance](/category/using-ressonance) section to create a cloud account.
 
 # Self-Hosted Option: Using docker image (ressonancia/ressonance)
 
@@ -43,7 +43,7 @@ docker run -it --rm \
 
 This option is best suited for teams with existing infrastructure, compliance requirements, or a need for full operational control.
 
-Go to (Self Hosted)[/self-hoste] to find all instructions about self hosting.
+Go to [Self Hosted](/category/using-ressonance) to find all instructions about self hosting.
 
 # Cloud vs Self-Hosted Comparison
 

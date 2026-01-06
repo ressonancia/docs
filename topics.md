@@ -9,7 +9,7 @@ Using Ressonance
 Self Hosted
     - Running the docker container
     - Sharing volumes
-    - Ysung external MySQL
+    - Using external MySQL
 Comparing with Pusher
 Faqs
 
