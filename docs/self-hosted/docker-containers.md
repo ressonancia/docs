@@ -4,9 +4,9 @@ slug: /self-hosted/running-as-docker-containers
 title: Docker Containers
 ---
 
-# Running Ressonance Self Hosted as Docker Containers
+# Running Ressonance Self-Hosted as Docker Containers
 
-To run ressonance as a Docker Container just run:
+To run Ressonance as a Docker container, run:
 
 ```sh
 docker pull ressonancia/ressonance
@@ -18,7 +18,7 @@ docker run -it --rm \
     ressonancia/ressonance
 ```
 
-This will expose ressonance dashboard at port 80.
+This exposes the Ressonance dashboard on port 80.
 
 
 # Docker Compose
@@ -34,14 +34,14 @@ services:
       - "8080:8080"
 ```
 
-# Acessing the container
+# Accessing the container
 
-The conteiner should expose 3 ports like explained:
+The container exposes three ports:
 
 | Port | Service          | Description                              |
 |------|------------------|------------------------------------------|
 | 80   | Dashboard        | Web interface for managing the platform  |
 | 8000 | Dashboard API    | API used by the dashboard                |
-| 8080 | WebSocket API    | WebSocket endpoint for real-time events. This por you should reference at your environment variables  |
+| 8080 | WebSocket API    | WebSocket endpoint for real-time events. Use this URL in your environment variables.  |
 
-The experience should be very similar to Ressonance Cloud
+The experience should be very similar to Ressonance Cloud.

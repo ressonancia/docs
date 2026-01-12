@@ -1,15 +1,14 @@
 Welcome to Ressonance
 Getting Started
 Using Ressonance
-    - Create account
-    - Create application
-    - Integrate application
-    - Delete application
-    - Remove account
+    - Create an account
+    - Create an application
+    - Integrate an application
+    - Delete an application
+    - Remove an account
 Self Hosted
-    - Running the docker container
+    - Running the Docker container
     - Sharing volumes
     - Using external MySQL
 Comparing with Pusher
-Faqs
-
+FAQs
