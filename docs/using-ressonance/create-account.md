@@ -6,14 +6,14 @@ title: Create Ressonance Cloud Account
 
 # Create Ressonance Cloud Account
 
-To create an account just access [https://app.ressonance.com/create-account](https://app.ressonance.com/create-account) and fill the form with a valid email.
+To create an account, go to [https://app.ressonance.com/create-account](https://app.ressonance.com/create-account) and fill out the form with a valid email.
 
 ![Create account form](../assets/create-account-form.png)
 
-After submit the form you will receive a verification link at your email address. Just click in Verify to activate the account.
+After you submit the form, you will receive a verification link at your email address. Click Verify to activate the account.
 
-![Cerify account email](../assets/verify-account.png)
+![Verify account email](../assets/verify-account.png)
 
-Now you are ready to create a Ressonance App.
+Now you are ready to create a Ressonance app.
 
-**OBS: If you dont receive the email check the span folder.**
+**Note: If you do not receive the email, check the spam folder.**

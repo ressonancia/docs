@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 slug: /self-hosted/perssist-configuration
-title: Pesssist Configuration
+title: Perssist Configuration
 ---
 
 # How to ensure the configurations are perssisted

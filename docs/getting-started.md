@@ -13,7 +13,7 @@ Ressonance can be run in two different ways, depending on how much control and o
 
 The Ressonance Cloud option is a fully managed WebSocket service. You don’t need to provision servers, configure scaling, or worry about uptime. After creating an application in the Ressonance dashboard, you simply configure your environment variables and start broadcasting real-time events from your application.
 
-What are the advantages:
+Advantages include:
 
 - No infrastructure or servers to manage
 - Automatic scaling and high availability
@@ -23,9 +23,9 @@ What are the advantages:
 
 This option is ideal for teams who want to focus on product development rather than infrastructure and operations.
 
-Proceed to [Using Ressonance](/category/using-ressonance) section to create a cloud account.
+Proceed to the [Using Ressonance](/category/using-ressonance) section to create a cloud account.
 
-# Self-Hosted Option: Using docker image (ressonancia/ressonance)
+# Self-Hosted Option: Using the Docker image (ressonancia/ressonance)
 
 The self-hosted option allows you to run Ressonance on your own infrastructure using the official Docker image `ressonancia/ressonance`. This gives you full control over networking, scaling strategy, logging, and deployment topology.
 
@@ -43,7 +43,7 @@ docker run -it --rm \
 
 This option is best suited for teams with existing infrastructure, compliance requirements, or a need for full operational control.
 
-Go to [Self Hosted](/category/using-ressonance) to find all instructions about self hosting.
+Go to [Self Hosted](/category/self-hosted) for all self-hosting instructions.
 
 # Cloud vs Self-Hosted Comparison
 
