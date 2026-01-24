@@ -6,13 +6,13 @@ title: Integrate Ressonance with a Laravel app
 
 ## Installing Reverb
 
-Ressonance is a managed Reverb installation. To use Ressonance, the first step is installing Reverb in your application. Reverb will install the reverb server and the reverb client. We will not use reverb server because ressonance will take place:
+Ressonance is a managed Reverb installation. To use Ressonance, the first step is to install Reverb in your application. Reverb installs the Reverb server and the Reverb client. We will not use the Reverb server because Ressonance will take its place. Run:
 
 `php artisan install:broadcasting --reverb`
 
 This will ask you to install Laravel Reverb. Say **yes** to all questions:
 
----- image showing the installation prompt
+![Instalation prompt image](../assets/instalation-prompt.png)
 
 After the installation, you should see environment variables for the local Reverb installation similar to this:
 
@@ -30,9 +30,9 @@ VITE_REVERB_PORT="${REVERB_PORT}"
 VITE_REVERB_SCHEME="${REVERB_SCHEME}"
 ```
 
-To configure Ressonance correctly, change the values to point to the Ressonance WebSocket servers. Create a Ressonance application here, and you should see this page:
+To configure Ressonance correctly, change the values to point to the Ressonance WebSocket servers. [Create a Ressonance application](https://app.ressonance.com/dashboard/projects/create), and you should see a page like this:
 
------- Ressonance application creation page image
+![Detail Page of Ressonance App](../assets/ressonance-app-detail-page.png)
 
 
 After changing the values, you should have this configuration:
@@ -56,4 +56,4 @@ VITE_REVERB_SCHEME="${REVERB_SCHEME}"
 This is all you need to do to integrate your Laravel application with Ressonance.
 The next tutorials will walk you through broadcasting.
 
-Take a look at the Laravel documentation too; it will have basically the same instructions.
+Take a look at the [Laravel documentation](https://laravel.com/docs/12.x/broadcasting) too; it much detailed instructions about reverb installation.

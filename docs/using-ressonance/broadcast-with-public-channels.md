@@ -1,20 +1,20 @@
 ---
 sidebar_position: 4
-slug: /using-ressonance/croadcast-with-public-channels
-title: Brodcasting with public channels
+slug: /using-ressonance/broadcast-with-public-channels
+title: Broadcasting with public channels
 ---
 
 ## Broadcasting with Public Channels
 
-We can dispatch events from the backend to the frontend publically. Lets take an example of a new product on Sale and we want to notify every user at the website.
+We can dispatch events from the backend to the frontend publicly. For example, when a new product is on sale, we want to notify every user on the website.
 
-Lets generate an event class:
+Let's generate an event class:
 
 ```sh
 php artisan make:event NewProductOnSaleReleased
 ```
 
-This will generate a class. Lets apply a some small changes the end class should be like this:
+This generates a class. Let's apply a few small changes; the final class should be like this:
 
 ```php
 <?php
@@ -57,7 +57,7 @@ class NewProductOnSaleReleased implements ShouldBroadcast
 }
 ```
 
-Now on the frontend lets add this code to your blade.
+Now, on the frontend, add this code to your Blade view.
 
 
 ```html
@@ -65,22 +65,22 @@ Now on the frontend lets add this code to your blade.
     document.addEventListener("DOMContentLoaded", () => {
         Echo.channel('product.on.sale')
             .listen('NewProductOnSaleReleased', (e) => {
-                alert('New Product On Sale!!!');
+                alert('New Product On Sale!!!' + e.productName);
         });
     });
 </script>
 ```
 
-Now to trigger this we can execute:
+To trigger this, execute:
 
 ```php
 App\Events\NewProductOnSaleReleased::dispatch("New Ressonance Sale. If you see this message send a print to support@ressonance.com and you have 3 months for free.")
 ```
 
-And see this message at the browser:
+You should see this message in the browser:
 
-------- image
+![Browser Alert ressonance on sale](../assets/ressonance-on-sale.png)
 
-This is an easy example. To understand completly what you can do and all features of groadcasting take a looke at the Laravel Documentation.
+This is an easy example. To understand everything you can do and all broadcasting features, take a look at the [Laravel documentation](https://laravel.com/docs/12.x/broadcasting).
 
-The next tutorial will show you a simples Private Channel.
+The next tutorial will show you a simple private channel.

@@ -1,22 +1,22 @@
 ---
 sidebar_position: 5
-slug: /using-ressonance/croadcast-with-private-channels
-title: Brodcasting with private channels
+slug: /using-ressonance/broadcast-with-private-channels
+title: Broadcasting with private channels
 ---
 
 ## Broadcasting with Private Channels
 
-To broadcast an event to specific authenticated users we can use Private Channels.
+To broadcast an event to specific authenticated users, we can use Private Channels.
 
-This is an simples example of an internal company communication.
+This is a simple example of internal company communication.
 
-Lets generate an event class:
+Let's generate an event class:
 
 ```sh
 php artisan make:event CommunicationSent
 ```
 
-This will generate a class. Lets apply a some small changes the end class should be like this:
+This will generate a class. Let's apply a few small changes; the final class should be like this:
 
 ```php
 <?php
@@ -58,10 +58,11 @@ class CommunicationSent implements ShouldBroadcast
     }
 }
 ```
-The only difference at the backend class is the `PivateChannel` class, punlic broadcasting use `Illuminate\Broadcasting\Channel` instead
+
+The only difference in the backend class is the `PrivateChannel` class; public broadcasting uses `Illuminate\Broadcasting\Channel` instead.
 
 
-Now on the frontend lets add this code to your blade.
+Now, on the frontend, add this code to your Blade view.
 
 
 ```html
@@ -75,16 +76,16 @@ Now on the frontend lets add this code to your blade.
 </script>
 ```
 
-Now to trigger this we can execute:
+To trigger this, execute:
 
 ```php
 App\Events\CommunicationSent::dispatch("The company is adopting the 4 days week!!! Enjoy!!!")
 ```
 
-And see this message at the browser:
+You should see this message in the browser:
 
-------- image
+![4 Days Week](../assets/4-days-week.png)
 
-Same here about the `private` method, public listeners use `channel` instead. This is the only diference in the code between both broadcasting methods but to use private broadcasting you should be logged in.
+The same applies to the `private` method; public listeners use `channel` instead. This is the only difference in the code between the two broadcasting methods, but to use private broadcasting you must be logged in.
 
-This is an easy example. To understand completly what you can do and all features of groadcasting take a looke at the Laravel Documentation.
+This is an easy example. To understand everything you can do and all broadcasting features, take a look at the [Laravel documentation](https://laravel.com/docs/12.x/broadcasting).
