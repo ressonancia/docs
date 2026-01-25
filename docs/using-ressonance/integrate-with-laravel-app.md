@@ -51,8 +51,6 @@ VITE_REVERB_PORT="${REVERB_PORT}"
 VITE_REVERB_SCHEME="${REVERB_SCHEME}"
 ```
 
-**If you are not using any queue system, make sure to keep QUEUE_CONNECTION=sync for this tutorial.**
-
 This is all you need to do to integrate your Laravel application with Ressonance.
 The next tutorials will walk you through broadcasting.
 
