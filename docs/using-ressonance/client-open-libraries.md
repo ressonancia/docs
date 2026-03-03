@@ -4,11 +4,6 @@ slug: /using-ressonance/client-open-libraries
 title: Client Open Libraries
 ---
 
-# Client Open Libraries
-
-Ressonance is compatible with the Pusher Channels ecosystem. This page mirrors the main content structure of the Channels libraries catalog:
-[Pusher Channels libraries](https://pusher.com/docs/channels/channels_libraries/libraries/) (checked on March 2, 2026).
-
 ## Channels API libraries
 
 Sending and receiving messages with Channels-compatible APIs requires libraries.
@@ -214,10 +209,6 @@ Also see iOS.
 | --- | --- | --- | --- | --- |
 | react-pusher-hoc | Client | Felix Wostal | GitHub | [fel1xw/react-pusher-hoc](https://github.com/fel1xw/react-pusher-hoc) |
 
-### React Native
-
-No dedicated community entries listed in the source section.
-
 ### QML
 
 | Library | Type | Maintainer | Docs | Code |
@@ -235,13 +226,3 @@ No dedicated community entries listed in the source section.
 | Library | Type | Maintainer | Docs | Code |
 | --- | --- | --- | --- | --- |
 | dtaniwaki/akka-pusher | Server | dtaniwaki | GitHub | [dtaniwaki/akka-pusher](https://github.com/dtaniwaki/akka-pusher) |
-
-### Test/example applications
-
-For an open-source example app built on `libPusher`, see the GitHub repository and the App Store listing referenced on the source page.
-
-For an open-source example app built on `pusher-websocket-java`, see the GitHub repository referenced on the source page.
-
-### Don't see your platform?
-
-If your platform is missing, consider building a compatible client or server library and sharing it with the community.
