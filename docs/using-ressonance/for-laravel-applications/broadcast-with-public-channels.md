@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 2
 slug: /using-ressonance/broadcast-with-public-channels
 title: Broadcasting with public channels
 ---
@@ -79,7 +79,7 @@ App\Events\NewProductOnSaleReleased::dispatch("New Ressonance Sale. If you see t
 
 You should see this message in the browser:
 
-![Browser Alert ressonance on sale](../assets/ressonance-on-sale.png)
+![Browser Alert ressonance on sale](../../assets/ressonance-on-sale.png)
 
 This is an easy example. To understand everything you can do and all broadcasting features, take a look at the [Laravel documentation](https://laravel.com/docs/12.x/broadcasting).
 
