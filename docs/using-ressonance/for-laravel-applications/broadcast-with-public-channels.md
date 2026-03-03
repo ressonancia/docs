@@ -16,7 +16,7 @@ php artisan make:event NewProductOnSaleReleased
 
 This generates a class. Let's apply a few small changes; the final class should be like this:
 
-```php
+```javascript
 <?php
 
 namespace App\Events;
@@ -73,7 +73,7 @@ Now, on the frontend, add this code to your Blade view.
 
 To trigger this, execute:
 
-```php
+```javascript
 App\Events\NewProductOnSaleReleased::dispatch("New Ressonance Sale. If you see this message send a print to support@ressonance.com and you have 3 months for free.")
 ```
 

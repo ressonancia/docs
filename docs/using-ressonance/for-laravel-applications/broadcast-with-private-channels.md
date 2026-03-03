@@ -18,7 +18,7 @@ php artisan make:event CommunicationSent
 
 This will generate a class. Let's apply a few small changes; the final class should be like this:
 
-```php
+```javascript
 <?php
 
 namespace App\Events;
@@ -78,7 +78,7 @@ Now, on the frontend, add this code to your Blade view.
 
 To trigger this, execute:
 
-```php
+```javascript
 App\Events\CommunicationSent::dispatch("The company is adopting the 4 days week!!! Enjoy!!!")
 ```
 
