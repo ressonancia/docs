@@ -29,7 +29,7 @@ You can use private channels to send information to authenticated users:
                 disableStats: true,            
                 enabledTransports: ["ws", "wss"],
                 channelAuthorization: {
-                    endpoint: "http://localhost:8080/authorize"
+                    endpoint: "https://your.appdomain.example/authorize"
                 },
             });
 
