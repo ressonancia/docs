@@ -1,10 +1,10 @@
 ---
 sidebar_position: 2
-slug: /using-ressonance/flesk/private-channels
-title: Using private channels with Flesk
+slug: /using-ressonance/flask/private-channels
+title: Using private channels with Flask
 ---
 
-## Using private channels with Flesk
+## Using private channels with Flask
 
 You can use private channels to send information to authenticated users:
 
@@ -50,7 +50,7 @@ You can use private channels to send information to authenticated users:
 ```sh
 pip install pusher flask flask-cors
 ```
-This is a small Flesk example application.
+This is a small Flask example application.
 
 ```python
 # File main.py

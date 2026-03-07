@@ -1,10 +1,10 @@
 ---
 sidebar_position: 1
-slug: /using-ressonance/flesk/public-channels
-title: Using public channels with Flesk
+slug: /using-ressonance/flask/public-channels
+title: Using public channels with Flask
 ---
 
-## Using public channels with Flesk
+## Using public channels with Flask
 
 Public channels do not require authentication. Public channels can be used for features without sensitive information, such as these use cases:
 
@@ -48,7 +48,7 @@ Public channels do not require authentication. Public channels can be used for f
 ```sh
 pip install pusher flask flask-cors
 ```
-This is a small Flesk example application.
+This is a small Flask example application.
 
 ```python
 # File main.py
