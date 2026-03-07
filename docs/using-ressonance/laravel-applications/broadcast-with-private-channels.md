@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 3
 slug: /using-ressonance/broadcast-with-private-channels
 title: Broadcasting with private channels
 ---
@@ -18,7 +18,7 @@ php artisan make:event CommunicationSent
 
 This will generate a class. Let's apply a few small changes; the final class should be like this:
 
-```php
+```javascript
 <?php
 
 namespace App\Events;
@@ -78,13 +78,13 @@ Now, on the frontend, add this code to your Blade view.
 
 To trigger this, execute:
 
-```php
+```javascript
 App\Events\CommunicationSent::dispatch("The company is adopting the 4 days week!!! Enjoy!!!")
 ```
 
 You should see this message in the browser:
 
-![4 Days Week](../assets/4-days-week.png)
+![4 Days Week](../../assets/4-days-week.png)
 
 The same applies to the `private` method; public listeners use `channel` instead. This is the only difference in the code between the two broadcasting methods, but to use private broadcasting you must be logged in.
 

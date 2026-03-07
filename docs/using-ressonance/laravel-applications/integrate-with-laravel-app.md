@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 1
 slug: /using-ressonance/integrate-with-laravel-app
 title: Integrate Ressonance with a Laravel app
 ---
@@ -12,7 +12,7 @@ Ressonance is a managed Reverb installation. To use Ressonance, the first step i
 
 This will ask you to install Laravel Reverb. Say **yes** to all questions:
 
-![Instalation prompt image](../assets/instalation-prompt.png)
+![Instalation prompt image](../../assets/instalation-prompt.png)
 
 After the installation, you should see environment variables for the local Reverb installation similar to this:
 
@@ -32,7 +32,7 @@ VITE_REVERB_SCHEME="${REVERB_SCHEME}"
 
 To configure Ressonance correctly, change the values to point to the Ressonance WebSocket servers. [Create a Ressonance application](https://app.ressonance.com/dashboard/projects/create), and you should see a page like this:
 
-![Detail Page of Ressonance App](../assets/ressonance-app-detail-page.png)
+![Detail Page of Ressonance App](../../assets/ressonance-app-detail-page.png)
 
 
 After changing the values, you should have this configuration:
